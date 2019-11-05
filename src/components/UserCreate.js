@@ -1,8 +1,8 @@
-import React from "react";
-import Field from "./Field";
-import Button from "./Button";
+import React from 'react';
+import Field from './Field';
+import Button from './Button';
 
-const userCreate = () => {
+const UserCreate = () => {
   return (
     <div className="ui form">
       <Field />
@@ -11,4 +11,4 @@ const userCreate = () => {
   );
 };
 
-export default userCreate;
+export default UserCreate;
